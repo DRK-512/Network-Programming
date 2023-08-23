@@ -1,5 +1,5 @@
 # Network-Programming
-This repository will consist of network based projects I plan to write in C++
+This repository will consist of network based projects I plan to write in C++.<br>
 This readme will be changed as time passes, and will reflect the project I intend on implementing or already have implemented
 
 ## Implemented Project List
