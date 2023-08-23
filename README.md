@@ -5,7 +5,7 @@ This readme will be changed as time passes, and will reflect the project I inten
 ## Implemented Project List
 ### Port-Scanner
 This program will spit out all open ports from a given IP
-## Network-Scanner
+### Network-Scanner
 This program will spit out all IPs, MAC Addresses, and hostnames from a given network interface, and subnet
 
 ## Backburner Project List
