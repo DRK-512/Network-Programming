@@ -1,11 +1,14 @@
 # Network-Programming
 This repository will consist of network based projects I plan to write in C++
-Resources: 
-- [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/split/)
+This readme will be changed as time passes, and will reflect the project I intend on implementing or already have implemented
 
-## Project List
-- Create a port scanner
-- Create a network scanner that can identify all devices connected to a local network, including the devices IP and MAC addresses
+## Implemented Project List
+### Port-Scanner
+- This program will spit out all open ports from a given IP
+## Network-Scanner
+- This program will spit out all IPs, MAC Addresses, and hostnames from a given network interface, and subnet
+
+## Backburner Project List
 - Create an application to send an email using GET and POST
 - Create an application that can send text messages
 - HTTP proxy with TCP client
