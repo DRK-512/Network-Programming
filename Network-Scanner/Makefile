@@ -1,6 +1,6 @@
 CC = g++
-CFLAGS = -g -lsfml-network -lsfml-system -Iinclude 
-FILES = ./src/functions.cpp ./src/main.cpp
+CFLAGS = -g -Iinclude 
+FILES = ./src/ParamChecks.cpp ./src/NetScanner.cpp ./src/main.cpp
 
 all: networkscanner
 

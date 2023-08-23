@@ -1,5 +1,5 @@
 
-#include "functions.h"
+#include "ParamChecks.h"
 
 bool helpFunction() {
     std::cout << "-i, --interface    is the network interface you are scanning" << std::endl;

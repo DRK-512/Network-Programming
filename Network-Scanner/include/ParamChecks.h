@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+#ifndef PARAMCHECKS_H
+#define PARAMCHECKS_H
 
 #include <iostream>
 #include <vector>
