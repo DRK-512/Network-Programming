@@ -40,14 +40,15 @@ int main(int argc, char* argv[])
     {
         if(showClosed)
         {
-            if (port_is_open(address, port))
+            /* This will check if the socket is open or not */
+            if ((sf::TcpSocket().connect(address, port) == sf::Socket::Done))
                 std::cout << "Port " << std::setw(width) << port << " : OPEN\n";
             else
                 std::cout << "Port " << std::setw(width) << port << " : CLOSED\n";
         }
         else 
         {
-            if (port_is_open(address, port))
+            if ((sf::TcpSocket().connect(address, port) == sf::Socket::Done))
                 std::cout << "Port " << std::setw(width) << port << " : OPEN\n";
         }
     }

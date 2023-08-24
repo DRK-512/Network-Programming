@@ -10,7 +10,6 @@
 #include <vector>
 
 void helpFunction(); 
-bool port_is_open(const std::string& address, int port);
 int string_to_int(const std::string& string); 
 
 std::vector<int> parse_ports_list(const std::string& list); 

@@ -21,12 +21,6 @@ void helpFunction()
     std::cout << "\n -h, --help       display this help and exit\n";
 }
 
-bool port_is_open(const std::string& address, int port)
-{
-    return (sf::TcpSocket().connect(address, port) == sf::Socket::Done);
-}
-
-
 int string_to_int(const std::string& string)
 {
     std::stringstream sstream(string);
@@ -37,9 +31,10 @@ int string_to_int(const std::string& string)
 
 std::vector<std::string> split(const std::string& string, char delimiter, bool allow_empty)
 {
+    std::string token;
     std::vector<std::string> tokens;
     std::stringstream sstream(string);
-    std::string token;
+    
     while (std::getline(sstream, token, delimiter)) {
         if (allow_empty || token.size() > 0)
             tokens.push_back(token);
