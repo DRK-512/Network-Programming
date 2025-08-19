@@ -1,3 +1,5 @@
 **/.vscode/
 Port-Scanner/portscanner
 Network-Scanner/networkscanner
+webscaper/scraped_pages/
+webscaper/scraper.log
